@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    background: #8573C6;
+    margin: 0;
+}
+
+#twitchFeed {
+    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(84, 73, 124);
+    color: white;
+    border-bottom: 10px solid rgb(160, 138, 240);
+    border-top: 10px solid rgb(160, 138, 240);
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+}
+
+#tv {
+    color: rgb(238, 217, 99);
+    border-radius: 50%;
+    text-align: center;
+    
+    line-height: 60px;
+}
+
+div .li {
+     
+    font-size: 14px;
+    list-style-type: none;   
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.card_text {
+    background-color: #FBFCFD;
+    color: #1F2230;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 350px;
+
+    margin: 10px 15px;
+}
+
+.list-group {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div .li a {
+    color: rgb(59, 58, 59);
+    text-decoration: none;
+}
+
+div #ul {
+    padding: 0px;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 150px;
+    border: 10px solid rgb(209, 209, 209);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.575);
+   
+}
+
+img.online {
+    border: 10px solid #54C98E;
+}
+
+#status.online {
+    color: #54C98E;
+}
+
+#userList {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 22px;
+    padding: 15px 0;
+    letter-spacing: 3px;
+    display: block;
+    background-color: rgb(59, 58, 59);
+    color: white;
+    width: 100%;
+  
+}
+
+#status {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: rgb(209, 209, 209);
+    letter-spacing: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+div .stream {
+text-align: center;
+    text-overflow: ellipsis;
+    white-space: auto;
+    overflow: hidden;
+    display: block;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.game {
+    font-weight: bold;
+    text-transform: uppercase;
+}
